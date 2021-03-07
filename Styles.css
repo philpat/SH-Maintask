@@ -13,6 +13,9 @@ ul{
     align-items: center;
     
 }
+.logo{
+    width: 60px;
+}
 ul li a{
     color: #fff;
     text-decoration: none;
@@ -47,10 +50,12 @@ ul li a{
 }
 .button{
     border: 200px;
-    height: 50px;
+    height: 30px;
     background-color: aqua;
     border-radius: 20px  ;
     color: azure;
+    width: 150px;
+    
     
 }
 
@@ -64,6 +69,7 @@ ul li a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
 .content-wrapper{
     margin-right: 20px;
     display: grid;
@@ -93,7 +99,7 @@ a.lin{
     
 }
 .container-item1{
-    background-color: rgb(33, 34, 95);
+    background-color: rgb(33, 33, 48);
     margin: 10px;
     padding: 20px;
 }
@@ -101,7 +107,7 @@ a.lin{
     width: 30%;
 }
 .container-item2{
-    background-color: rgb(33, 34, 95);
+    background-color: rgb(33, 33, 48);
     margin: 10px;
     padding: 20px;
 }
@@ -109,7 +115,7 @@ a.lin{
     width: 30%;
 }
 .container-item3{
-    background-color: rgb(33, 34, 95);
+    background-color: rgb(33, 33, 48);
     margin: 10px;
     padding: 20px;
     
