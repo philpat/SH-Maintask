@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+ul{
+    list-style-type: none;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 3px;
+}
+
+.menu{
+    display: flex;
+    margin: 3px;
+}
+
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+    align-items: center;
+   
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid rgba(4, 16, 43, 0.205);
+    background-color: rgb(9, 9, 41);
+    color: #fff;
+    align-content: center;
+    align-items: center;
+}  
+.png{
+    width: 50%;
+}
+.button{
+    border: 200px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 20px  ;
+    color: azure;
+    
+}
+
+    
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+}
+.below{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.content-wrapper{
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+}
+.two-column-wrapper{
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+}
+.wrap1 img{
+    width: 50%;
+}
+.wrap2{
+    padding: 30px;
+}
+a.lin{
+    color: aqua;
+}
+.container{
+    box-sizing: content-box;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 30px;
+    padding: 20px;
+    
+    
+    
+}
+.container-item1{
+    background-color: rgb(33, 34, 95);
+    margin: 10px;
+    padding: 20px;
+}
+.container-item1 img{
+    width: 30%;
+}
+.container-item2{
+    background-color: rgb(33, 34, 95);
+    margin: 10px;
+    padding: 20px;
+}
+.container-item2 img{
+    width: 30%;
+}
+.container-item3{
+    background-color: rgb(33, 34, 95);
+    margin: 10px;
+    padding: 20px;
+    
+}
+.container-item3 img{
+    width: 30px;
+}
+
+.box-sizing{
+    box-sizing: border-box;
+    margin: 50px;
+
+}
+.wrapper2{
+    box-sizing: border-box;
+    width: auto;
+    background-color: rgb(6, 1, 29);
+    padding: 5px;
+    border: 5px;
+}
+.type [type=email]{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+.button2{
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: cyan;
+    color: white;
+
+}
