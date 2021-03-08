@@ -1,7 +1,6 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
-
 }
 ul{
     list-style-type: none;
@@ -20,6 +19,7 @@ ul li a{
     color: #fff;
     text-decoration: none;
     margin: 3px;
+    text-transform: capitalize;
 }
 
 .menu{
@@ -32,6 +32,7 @@ ul li a{
     border: 3px solid #fff;
     padding: 20px;
     align-items: center;
+
    
 }
 
@@ -40,7 +41,7 @@ ul li a{
     float: left;
     padding: 20px;
     border: 2px solid rgba(4, 16, 43, 0.205);
-    background-color: rgb(9, 9, 41);
+    background-color:  hsl(218, 28%, 13%);
     color: #fff;
     align-content: center;
     align-items: center;
@@ -72,12 +73,12 @@ ul li a{
 
 .content-wrapper{
     margin-right: 20px;
-    display: grid;
-    grid-template-columns: 1fr,1fr;
+    display: flex;
+    
 }
 .two-column-wrapper{
-    display: grid;
-    grid-template-columns: 1fr,1fr;
+    
+    
 }
 .wrap1 img{
     width: 50%;
@@ -138,8 +139,9 @@ a.lin{
 }
 .type [type=email]{
     width: 250px;
-    height: 30px;
+    height: 25px;
     border-radius: 20px;
+    margin: 10px;
 }
 .button2{
     width: 150px;
@@ -147,5 +149,22 @@ a.lin{
     border-radius: 20px;
     background-color: cyan;
     color: white;
+    margin: 10px;
 
+}
+.last-logo{
+    width: 50px;
+}
+.end{
+    background-color:  hsl(216, 53%, 9%);
+    display: flex;
+    flex-wrap: nowrap;
+}
+.bottom-address{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+li{
+    list-style-type: none;
 }
