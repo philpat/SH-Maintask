@@ -49,6 +49,9 @@ ul li a{
 .png{
     width: 50%;
 }
+.mobile{
+    width: 50px;
+}
 .button{
     border: 200px;
     height: 30px;
